@@ -1,0 +1,32 @@
+{
+  "top_domains": [
+    {"domain":"github.com","minutes":62},
+    {"domain":"go.dev","minutes":41},
+    {"domain":"stackoverflow.com","minutes":38},
+    {"domain":"docs.google.com","minutes":29},
+    {"domain":"reddit.com","minutes":15}
+  ],
+  "top_searches": [
+    {"q":"understand logo","count":4},
+    {"q":"grpc go example","count":3},
+    {"q":"react dashboard design","count":2},
+    {"q":"tailwind css charts","count":2}
+  ],
+  "focus": {"docs_min": 120, "social_min": 35, "score": 0.77},
+  "golden_hours": {"8": 25, "9": 40, "10": 50, "11": 70, "12": 40, "13": 35, "14": 60, "15": 45, "16": 55, "17": 30},
+  "sessions": [
+    {"start":"2025-08-09T10:05","duration_min":45,"dominant":"grpc","path":["google","stackoverflow","github","docs"]},
+    {"start":"2025-08-08T22:10","duration_min":20,"dominant":"logo design","path":["google","images"]},
+    {"start":"2025-08-08T14:30","duration_min":65,"dominant":"react development","path":["github","docs","stackoverflow"]},
+    {"start":"2025-08-07T09:15","duration_min":30,"dominant":"research","path":["google","reddit","hackernews"]},
+    {"start":"2025-08-07T16:45","duration_min":25,"dominant":"documentation","path":["docs","github"]}
+  ],
+  "trends": {"docs_min_delta_pct": 24, "social_min_delta_pct": -15, "search_count_delta_pct": 8},
+  "chains": [
+    ["google","stackoverflow","github","docs"],
+    ["google","images"],
+    ["github","docs","stackoverflow"],
+    ["google","reddit","hackernews"]
+  ],
+  "interests": ["grpc","go","logo design","react development","productivity"]
+}
